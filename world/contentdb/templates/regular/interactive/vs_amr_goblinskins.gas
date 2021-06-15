@@ -1,0 +1,140 @@
+[t:template,n:vs_goblin_02loa]
+{
+    doc = "vs_amr_goblinskins";
+    specializes = base_armor;
+    [aspect]
+    {
+        is_selectable = false;
+        is_visible = false;
+		textures:0 = b_c_eam_ggt-02;
+    }
+    [common]
+    {
+        is_pcontent_allowed = false;
+        screen_name = "vs_goblin_02";
+    }
+    [defend]
+    {
+        armor_style = 001;
+        armor_type = type1;
+        defense = 0;
+    }
+    [gui]
+    {
+        inventory_height = 2;
+        inventory_width = 1;
+        is_droppable = false;
+    }
+}
+[t:template,n:vs_goblin_03loa]
+{
+    doc = "vs_amr_goblinskins";
+    specializes = base_armor;
+    [aspect]
+    {
+        is_selectable = false;
+        is_visible = false;
+		textures:0 = b_c_eam_ggt-03;
+    }
+    [common]
+    {
+        is_pcontent_allowed = false;
+        screen_name = "vs_goblin_03";
+    }
+    [defend]
+    {
+        armor_style = 001;
+        armor_type = type1;
+        defense = 0;
+    }
+    [gui]
+    {
+        inventory_height = 2;
+        inventory_width = 1;
+        is_droppable = false;
+    }
+}
+[t:template,n:vs_goblin_01lou]
+{
+    doc = "vs_amr_goblinskins";
+    specializes = base_armor;
+    [aspect]
+    {
+        is_selectable = false;
+        is_visible = false;
+		textures:0 = b_c_eam_ggt_001;
+    }
+    [common]
+    {
+        is_pcontent_allowed = false;
+        screen_name = "vs_goblin_01";
+    }
+    [defend]
+    {
+        armor_style = 001;
+        armor_type = type1;
+        defense = 0;
+    }
+    [gui]
+    {
+        inventory_height = 2;
+        inventory_width = 1;
+        is_droppable = false;
+    }
+}
+[t:template,n:vs_goblin_02lou]
+{
+    doc = "vs_amr_goblinskins";
+    specializes = armor;
+    [aspect]
+    {
+        is_selectable = false;
+        is_visible = false;
+		textures:0 = b_c_eam_ggt_002;
+    }
+    [common]
+    {
+        is_pcontent_allowed = false;
+        screen_name = "vs_goblin_01";
+    }
+    [defend]
+    {
+        armor_style = 001;
+        armor_type = type1;
+        defense = 0;
+    }
+    [gui]
+    {
+        inventory_height = 2;
+        inventory_width = 1;
+        is_droppable = false;
+    }
+}
+[t:template,n:vs_goblin_03lou]
+{
+    doc = "vs_amr_goblinskins";
+    specializes = base_armor;
+    [aspect]
+    {
+        is_selectable = false;
+        is_visible = false;
+		textures:0 = b_c_eam_ggt_003;
+    }
+    [common]
+    {
+        is_pcontent_allowed = false;
+        screen_name = "vs_goblin_01";
+    }
+    [defend]
+    {
+        armor_style = 001;
+        armor_type = type1;
+        defense = 0;
+    }
+    [gui]
+    {
+        inventory_height = 2;
+        inventory_width = 1;
+        is_droppable = false;
+    }
+}

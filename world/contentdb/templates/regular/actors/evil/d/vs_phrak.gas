@@ -1,0 +1,34 @@
+[t:template,n:vs_phrak]
+{
+	category_name = "1W_evil_d";
+	doc = "phrak";
+	specializes = base_phrak;
+
+	[aspect]
+	{
+		textures:0 = b_c_edm_ph_mq;
+	}
+	[common]
+	{
+		membership = phrak,monster;
+	}
+	[mind]
+	{
+		jat_brain						= world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party		= true
+			&guard							= true
+			&friends						= phrak;
+	}
+		[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_vs_phrak_01 = 1;
+			frag_glb_vs_phrak_02 = 2;
+			frag_glb_vs_phrak_03 = 2;
+			frag_glb_vs_phrak_04 = 1;
+			frag_glb_vs_phrak_05 = 2;
+		}
+	}
+
+}

@@ -1,0 +1,91 @@
+[t:template,n:frag_glb_ancbone_01]
+{
+	doc = "bone fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-bone-01; textures:0	= b_c_ecm_sk-anc2;}
+}
+[t:template,n:frag_glb_ancbone_02]
+{
+	doc = "bone fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-bone-02; textures:0	= b_c_ecm_sk-anc2;}
+}
+[t:template,n:frag_glb_ancbone_03]
+{
+	doc = "bone fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-bone-03; textures:0	= b_c_ecm_sk-anc2;}
+}
+[t:template,n:frag_glb_ancbone_04]
+{
+	doc = "bone fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-bone-04; textures:0	= b_c_ecm_sk-anc2;}
+}
+[t:template,n:frag_glb_ancbone_05]
+{
+	doc = "bone fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-bone-05; textures:0	= b_c_ecm_sk-anc2;}
+}
+[t:template,n:frag_glb_ancbone_06]
+{
+	doc = "bone fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-bone-06; textures:0	= b_c_ecm_sk-anc2;}
+}
+[t:template,n:frag_glb_vs_phrak_01]
+{
+	doc = "frag_glb_phrak_01";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		model = m_i_glb_frag-phrak-01;
+		scale_base = 0.55;
+		textures:0	= b_c_edm_ph_mq;
+ 	}
+}
+[t:template,n:frag_glb_vs_phrak_02]
+{
+	doc = "frag_glb_phrak_02";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		model = m_i_glb_frag-phrak-02;
+		scale_base = 0.55;
+		textures:0	= b_c_edm_ph_mq;
+ 	}
+}
+[t:template,n:frag_glb_vs_phrak_03]
+{
+	doc = "frag_glb_phrak_03";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		model = m_i_glb_frag-phrak-03;
+		scale_base = 0.55;
+		textures:0	= b_c_edm_ph_mq;
+ 	}
+}
+[t:template,n:frag_glb_vs_phrak_04]
+{
+	doc = "frag_glb_phrak_04";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		model = m_i_glb_frag-phrak-04;
+		scale_base = 0.55;
+		textures:0	= b_c_edm_ph_mq;
+ 	}
+}
+[t:template,n:frag_glb_vs_phrak_05]
+{
+	doc = "frag_glb_phrak_05";
+	specializes = fragment;
+	[aspect] 
+	{ 
+		model = m_i_glb_frag-phrak-05;
+		scale_base = 0.55;
+		textures:0	= b_c_edm_ph_mq;
+ 	}
+}
